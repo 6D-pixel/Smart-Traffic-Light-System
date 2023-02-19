@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bus', 'car', 'bike', 'truck', 'auto']
+
+roboflow:
+  workspace: capstone-ee6x0
+  project: merg-data
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstone-ee6x0/merg-data/dataset/1
